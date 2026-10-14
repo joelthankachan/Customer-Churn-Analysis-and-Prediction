@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="images/Summary_Page.png" alt="Customer Retention Dashboard: Summary page" width="100%">
+  <img src="PowerBI%20Dashboard/1.%20Summary_Page.png" alt="Customer Retention Dashboard: Summary page" width="100%">
 </p>
 
 ---
@@ -43,7 +43,6 @@ The project answers three simple questions:
 - [How to run it](#how-to-run-it)
 - [What this project taught me](#what-this-project-taught-me)
 - [Acknowledgements](#acknowledgements)
-- [Let's connect](#lets-connect)
 
 ---
 
@@ -168,7 +167,7 @@ The dashboard has two pages and a custom black-and-gold theme. I wanted it to lo
 The overall picture of churn: key numbers at the top, then the breakdown by demographics, geography, account details, services and churn reasons.
 
 <p align="center">
-  <img src="images/Summary_Page.png" alt="Summary page" width="100%">
+  <img src="PowerBI%20Dashboard/1.%20Summary_Page.png" alt="Summary page" width="100%">
 </p>
 
 ### Page 2: Prediction
@@ -176,7 +175,7 @@ The overall picture of churn: key numbers at the top, then the breakdown by demo
 Who the model thinks is at risk: a profile of the predicted churners on the left, and the full customer list on the right so a team could act on it straight away.
 
 <p align="center">
-  <img src="images/Prediction_Page.png" alt="Prediction page" width="100%">
+  <img src="PowerBI%20Dashboard/2.%20Prediction_Page.png" alt="Prediction page" width="100%">
 </p>
 
 The report also includes filters (monthly change range and marital status) and a button to move between the two pages. Measures such as Total Customers, New Joiners, Total Churn and Churn Rate are written in DAX.
@@ -244,10 +243,10 @@ Customer-Churn-Analysis-and-Prediction/
 ├── README.md
 ├── Churn Analysis SQL.sql                  # SQL: exploration, cleaning, views
 ├── Power BI dashboard (.pbix)              # Two-page interactive dashboard
-├── Dashboard Screenshots.pdf               # Dashboard pages as a PDF
-├── images/                                 # Screenshots used in this README
-│   ├── Summary_Page.png
-│   └── Prediction_Page.png
+├── PowerBI Dashboard/                      # Dashboard screenshots
+│   ├── 1. Summary_Page.png
+│   ├── 2. Prediction_Page.png
+│   └── Dashboard Screenshots.pdf
 ├── Customer Churn Prediction ML CODE/
 │   ├── Churn_Prediction_ML.ipynb           # Python: model training and prediction
 │   └── Prediction.csv                      # Customers predicted to churn
@@ -285,11 +284,3 @@ Customer-Churn-Analysis-and-Prediction/
 ## Acknowledgements
 
 The overall project structure was inspired by a [YouTube tutorial](https://www.youtube.com/watch?v=QFDslca5AX8). I extended it by connecting Python directly to SQL Server, writing my own analysis and recommendations, and designing a custom black-and-gold dashboard theme with my own backgrounds.
-
-## Let's connect
-
-I'm **Joel Thankachan**, an MSc Data Science graduate. If you have feedback on this project or want to talk about data, I'd love to hear from you.
-
-- LinkedIn: [add your LinkedIn link here]
-- Email: [add your email here]
-- GitHub: [@joelthankachan](https://github.com/joelthankachan)
