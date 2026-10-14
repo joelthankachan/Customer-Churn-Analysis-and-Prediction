@@ -281,6 +281,3 @@ Customer-Churn-Analysis-and-Prediction/
 - **Connecting Python straight to SQL** made the workflow cleaner and repeatable than passing Excel files around.
 - **A good dashboard is design as well as data.** Choosing one clear colour for churn and keeping the layout simple made the story far easier to follow.
 
-## Acknowledgements
-
-The overall project structure was inspired by a [YouTube tutorial](https://www.youtube.com/watch?v=QFDslca5AX8). I extended it by connecting Python directly to SQL Server, writing my own analysis and recommendations, and designing a custom black-and-gold dashboard theme with my own backgrounds.
